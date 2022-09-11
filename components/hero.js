@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Container from "./container";
-import heroImg from "../public/img/hero.png";
+import heroImg from "../public/img/pianoPlaying.svg";
 
 export default function Hero() {
   return (
@@ -55,7 +55,6 @@ export default function Hero() {
               alt="Hero Illustration"
               layout="intrinsic"
               loading="eager"
-              placeholder="blur"
             />
           </div>
         </div>
