@@ -44,7 +44,7 @@ const benefitTwo = {
       icon: <DeviceMobileIcon />,
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
+      title: "Powered by Next.js & TailwisndCSS",
       desc: "This template is powered by latest technologies and tools.",
       icon: <AdjustmentsIcon />,
     },
@@ -56,4 +56,33 @@ const benefitTwo = {
   ],
 };
 
-export { benefitOne, benefitTwo };
+// const colors= [
+//   'lime', 'biscotti', 'olive', 'mint', 'pickle', 'purple',
+//   'pine', '#FF007F', 'cotton candy', 'pearl', 'sand', 'vanilla',
+//   'cantaloupe', 'almond', 'chestnut', 'hazelnut', 'wood', 'chocolate',
+//   'brownie', 'black', 'rhino', 'smoke'
+// ]
+
+const colors= [
+  'lime', '#e6d7c2', 'olive', '#3EB489', 'pickle',
+  'purple', 'pine', '#FF007F', '#ffbcd9', '#E2DFD2',
+  '#C2B280', 'vanilla', '#FFA62F', '#EADDCA', 'chestnut',
+  'hazelnut', 'wood', 'chocolate', 'brownie', 'grey',
+  '#333366', 'smoke'
+]
+
+const matrix = [
+  [3, 2, 10, 10, 2, 3, 13, 10, 9, 9,
+   9, 9, 10, 10, 10, 9, 9, 10, 10, 10,
+   10, 1, 1, 10, 1, 2, 10, 10, 11, 11,
+   10, 11, 10, 1, 3, 3, 3, 3, 2, 2,
+   2, 13, 2, 3, 3, 3, 3, 3, 21, 4],
+  [3, 3, 13, 10, 13, 5, 2, 10, 9, 9,
+   9, 10, 10, 10, 13, 1, 1, 1, 1, 1,
+   1, 10, 10, 10, 2, 13, 10, 10, 13, 20,
+   20, 20, 10, 1, 3, 3, 3, 3, 2, 2,
+   2, 13, 2, 3, 3, 3, 3, 3, 21, 4],
+
+]
+
+export { benefitOne, benefitTwo, colors, matrix };

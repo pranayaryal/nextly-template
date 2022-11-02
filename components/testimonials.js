@@ -13,8 +13,8 @@ export default function Testimonials() {
         <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              Share a real <Mark>testimonial</Mark>
-              that hits some of your benefits from one of your popular customer.
+            This is a really good artwork by Saniya.
+              
             </p>
 
             <Avatar
@@ -27,8 +27,7 @@ export default function Testimonials() {
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              Make sure you only pick the <Mark>right sentence</Mark>
-              to keep it short and simple.
+            Wow! Saniya is really good.
             </p>
 
             <Avatar
@@ -41,9 +40,8 @@ export default function Testimonials() {
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              This is an <Mark>awesome</Mark> landing page template I've seen. I
-              would use this for anything.
-            </p>
+              I can't believe <Mark> Saniya</Mark> can do this
+              </p>
 
             <Avatar
               image={userThreeImg}
