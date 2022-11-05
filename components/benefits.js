@@ -2,6 +2,7 @@ import { precisionPrefix } from "d3";
 import Image from "next/image";
 import React, { useState } from "react";
 import Container from "./container";
+const size = 4
 
 export default function Benefits(props) {
   const [xpos, setXpos] = useState(0)
@@ -26,7 +27,7 @@ export default function Benefits(props) {
           matrix.map((mx, i) => {
            return mx.map((val, ix) => {
                 return (
-                  <Rect key={ix} clr={colors[val - 1]} x={ix*5} y={i * 5}>
+                  <Rect key={ix} clr={colors[val - 1]} x={ix*size} y={i * size}>
                   </Rect>
                   )
             })
@@ -42,7 +43,7 @@ export default function Benefits(props) {
 function Rect(props) {
   return (
     <>
-      <rect width="5" height="5" fill={props.clr} x={props.x} y={props.y}/>
+      <rect width={size} height={size} fill={props.clr} x={props.x} y={props.y}/>
     </>
   );
 }
